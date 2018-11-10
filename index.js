@@ -18,11 +18,11 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  const moarKittens = [kittens..., name]
+  const moarKittens = [...kittens, name]
   return
 }
 
 function prependKitten(name) {
-  const moarKittens = [name, kittens...]
+  const moarKittens = [name, ...kittens]
   return moarKittens
 }
